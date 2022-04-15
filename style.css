@@ -1,0 +1,54 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0px;
+  font-family: Arial, sans-serif;
+}
+header,
+section {
+  padding: 20px;
+}
+p,
+li {
+  line-height: 1.5em;
+}
+
+#inspiration {
+  background-color: #f0f0f0;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+body main {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.card {
+  border: 2px solid black;
+  padding: 5px;
+  margin-bottom: 10px;
+}
+
+.card a {
+  text-decoration: none;
+  color: red;
+  font-size: 22px;
+  margin: 5px;
+}
+
+.card a:hover {
+  color: black;
+}
+
+.card img {
+  width: 100%;
+  min-height: 250px;
+}
+
+section .card {
+  display: flex;
+  flex-direction: column;
+}
